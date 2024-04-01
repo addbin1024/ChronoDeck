@@ -1,0 +1,32 @@
+{
+  "name": "timemaster",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "ant-design-vue": "^4.1.2",
+    "axios": "^1.5.1",
+    "d3": "^7.8.5",
+    "lodash": "^4.17.21",
+    "vue": "^3.3.4",
+    "vue3-perfect-scrollbar": "^1.6.1",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.1",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "vite": "^4.4.9",
+    "vite-plugin-windicss": "^1.9.1",
+    "windicss": "^3.5.6"
+  }
+}
